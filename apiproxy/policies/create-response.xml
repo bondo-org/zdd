@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="create-response">
+    <DisplayName>create response</DisplayName>
+    <Properties/>
+    <Set>
+        <Headers>
+            <Header name="api-proxy-name">{apiproxy.name}</Header>
+            <Header name="api-proxy-revision">{apiproxy.revision}</Header>
+            <Header name="api-proxy-environment-name">{environment.name}</Header>
+        </Headers>
+        <Payload contentType="text/plain">OK
+</Payload>
+    </Set>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>

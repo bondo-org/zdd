@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="zdd-demo-proxy">
+    <Basepaths>/zdd-demo-proxy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1535039857992</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description></Description>
+    <DisplayName>zdd-demo-proxy</DisplayName>
+    <LastModifiedAt>1535042635916</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:7b570a8305c3a2c7ebde4cce87346b3b4bbbf16979b25fdaa8db5e88d647113855ab4be769b0175d58f5fc91dcf08669ed4eecc61d749d5e9aad81c71a9bf388</ManifestVersion>
+    <Policies>
+        <Policy>create-response</Policy>
+        <Policy>delayed-response</Policy>
+        <Policy>quota</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>py://delayed-response.py</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

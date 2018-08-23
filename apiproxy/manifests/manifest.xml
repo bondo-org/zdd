@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="create-response" version="SHA-512:22c74204a9997bbd61613f95303b87119fd30d7c8f93da7c8b881da3cffd081af09c0b8f7e875acf214c5535fafda27620896217a5bcac3e262f01efe39fa472"/>
+        <VersionInfo resourceName="delayed-response" version="SHA-512:5319eeb7bedc719192a979184f853213f44d712654ea92cc9e084545e64c210b4c85cc1aef530f6501222bf94b2dc5fc12bfbb9c1eb82b85167655c608f6a3ea"/>
+        <VersionInfo resourceName="quota" version="SHA-512:ab120adc77757de2623dc7ea43a4d1cdae75ec271154fa0c2f8f7eb55fad391c8170c11d492f3ea918e5ab2e367087bc15c9da381f37757c85058dbc4ed21d64"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f0b20f0775dcf24074dcad54617205414dca29ee02f03cf6a21e0c2cf03819de377119080d741195f6f517b8684dae275b3b15a5fd4a94df7b70271bdd986eb2"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="py://delayed-response.py" version="SHA-512:9de8dd496a36e861134e7bdd79ca4e2768c83618a8bfb2fd856d9080740b0f36e7eed6c66097b5fd4afb098ef2ce88f993d052a4ed9586901deb6a239c5912b7"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>
