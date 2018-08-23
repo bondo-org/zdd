@@ -3,5 +3,5 @@
     <DisplayName>quota</DisplayName>
     <Interval>1</Interval>
     <TimeUnit>hour</TimeUnit>
-    <Allow count="60"/>
+    <Allow count="30"/>
 </Quota>
